@@ -1,0 +1,25 @@
+{
+  "name": "pixi-demo",
+  "version": "0.0.1",
+  "description": "Demo project for pixi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttucoulo/pixi-demo.git"
+  },
+  "author": "thibbbaut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttucoulo/pixi-demo/issues"
+  },
+  "homepage": "https://github.com/ttucoulo/pixi-demo#readme",
+  "dependencies": {
+    "pixi.js": "^4.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
