@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "start": "hs -p 80 ."
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,12 @@
   },
   "homepage": "https://github.com/ttucoulo/pixi-demo#readme",
   "dependencies": {
-    "pixi.js": "^4.5.3"
+    "http-server": "^0.10.0",
+    "pixi.js": "^4.5.3",
+    "systemjs": "^0.20.14"
   },
   "devDependencies": {
+    "@types/pixi.js": "^4.5.1",
     "typescript": "^2.4.1"
   }
 }

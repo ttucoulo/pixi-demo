@@ -1,7 +1,21 @@
-let myNumbers: Array<number> = [];
+import {autoDetectRenderer, Container, loader as Loader, Sprite, Point} from "pixi.js";
 
-let test: number = 18;
+let initDisplay = function() {
+    let renderer = autoDetectRenderer(256, 256);
 
-myNumbers.push(test);
+    document.body.appendChild(renderer.view);
 
-console.log(myNumbers);
+    let stage = new Container();
+
+    let sprite = new Sprite(Loader.resources["static/images/tour.png"].texture);
+    sprite.scale = new Point(0.25, 0.25);
+    stage.addChild(sprite);
+
+    renderer.render(stage);
+}
+
+Loader
+    .add("static/images/tour.png")
+    .load(initDisplay);
+
+

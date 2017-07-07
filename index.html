@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Démo Pixi</title>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="node_modules/systemjs/dist/system.js"></script>
+        <script>
+            SystemJS.config({
+                baseURL: "./dist",
+                map: {
+                    "pixi.js": "../node_modules/pixi.js/dist/pixi.js"
+                }
+            });
+
+            SystemJS.import("main.js");
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
