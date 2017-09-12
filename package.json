@@ -19,11 +19,13 @@
   },
   "homepage": "https://github.com/ttucoulo/pixi-demo#readme",
   "dependencies": {
+    "gsap": "^1.20.2",
     "http-server": "^0.10.0",
     "pixi.js": "^4.5.3",
     "systemjs": "^0.20.14"
   },
   "devDependencies": {
+    "@types/gsap": "^1.19.1",
     "@types/pixi.js": "^4.5.1",
     "typescript": "^2.4.1"
   }
